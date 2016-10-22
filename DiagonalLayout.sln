@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalLayout", "DiagonalLayout\DiagonalLayout.csproj", "{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalLayout.Sample", "DiagonalLayout.Sample\DiagonalLayout.Sample.csproj", "{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

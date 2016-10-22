@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Xam.Plugins.Android.DiagonalLayout</id>
+        <version>1.0.2</version>
+        <title>DiagonalLayout for Xamarin.Android</title>
+        <authors>Martijn van Dijk</authors>
+        <owners>Martijn van Dijk</owners>
+        <licenseUrl>https://github.com/martijn00/DiagonalLayoutXamarin/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/martijn00/DiagonalLayoutXamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/martijn00/DiagonalLayoutXamarin/master/icon_diagonallayout.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>DiagonalLayout for Xamarin Android</description>
+        <summary>With Diagonal Layout explore new styles and approaches on material design</summary>
+        <tags>xamarin, monodroid, C#, xamarin.android, android, DiagonalLayout, Diagonal, Layout</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\DiagonalLayout\bin\Release\DiagonalLayout.dll" target="lib\MonoAndroid\DiagonalLayout.dll" />
+    </files>
+</package>
