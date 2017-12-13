@@ -16,4 +16,19 @@
   - To change the type of the return value, use "return" as the parameter name.
   - The parameter names will be p0, p1, ... unless you provide JavaDoc file in the project.
   -->
+
+  <mapping jni-class="com/github/florent37/diagonallayout/DiagonalLayoutSettings">
+    <method jni-name="getPosition" parameter="return" clr-enum-type="Com.Github.Florent37.DiagonalLayout.Position" />
+    <method jni-name="setPosition" parameter="p0" clr-enum-type="Com.Github.Florent37.DiagonalLayout.Position" />
+  </mapping>
+  <mapping jni-class="com/github/florent37/diagonallayout/DiagonalLayoutSettings">
+    <method jni-name="getDirection" parameter="return" clr-enum-type="Com.Github.Florent37.DiagonalLayout.Direction" />
+    <method jni-name="setDirection" parameter="p0" clr-enum-type="Com.Github.Florent37.DiagonalLayout.Direction" />
+  </mapping>
+  <mapping jni-class="com/github/florent37/diagonallayout/DiagonalLayout">
+    <method jni-name="setDirection" parameter="direction" clr-enum-type="Com.Github.Florent37.DiagonalLayout.Direction" />
+  </mapping>
+  <mapping jni-class="com/github/florent37/diagonallayout/DiagonalLayout">
+    <method jni-name="setPosition" parameter="position" clr-enum-type="Com.Github.Florent37.DiagonalLayout.Position" />
+  </mapping>
 </enum-method-mappings>

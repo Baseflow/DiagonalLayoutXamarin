@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalLayout", "DiagonalLayout\DiagonalLayout.csproj", "{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalLayout.Sample", "DiagonalLayout.Sample\DiagonalLayout.Sample.csproj", "{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}"
@@ -17,7 +18,14 @@ Global
 		{F91E7534-718C-4DA7-9A1F-B4C84F1411FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AACA2145-966F-4496-AA0C-73AB7BBB5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09569C0E-A6FB-4E5F-9427-D4F734D0B5F6}
 	EndGlobalSection
 EndGlobal

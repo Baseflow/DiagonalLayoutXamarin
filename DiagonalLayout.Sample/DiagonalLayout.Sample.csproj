@@ -91,9 +91,7 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\activity_anim.xml" />
-    <AndroidResource Include="Resources\layout\activity_main_linear.xml" />
     <AndroidResource Include="Resources\layout\activity_main_simple.xml" />
-    <AndroidResource Include="Resources\layout\activity_main.xml" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-w820dp\dimens.xml" />

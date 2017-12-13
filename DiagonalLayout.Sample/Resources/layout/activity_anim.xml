@@ -7,47 +7,49 @@
     android:background="#EEEEEE"
     >
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:background="#1dabbe"
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="500dp"
+      android:background="#1dabbe"
         >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="background text"
-            android:textColor="@android:color/white"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="background text"
+        android:textColor="@android:color/white"
             />
 
-        <com.github.florent37.diagonallayout.DiagonalLayout
-            android:id="@+id/layoutBottom"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:elevation="10dp"
-            diagonal:diagonal_angle="10"
-            diagonal:diagonal_gravity="left|top"
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        diagonal:diagonal_angle="10"
+        diagonal:diagonal_position="top"
+        diagonal:diagonal_direction="left"
+      android:elevation="30dp"
             >
 
-        </com.github.florent37.diagonallayout.DiagonalLayout>
+    </com.github.florent37.diagonallayout.DiagonalLayout>
 
-        <com.github.florent37.diagonallayout.DiagonalLayout
-            android:id="@+id/layoutTop"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:elevation="10dp"
-            diagonal:diagonal_angle="10"
-            diagonal:diagonal_gravity="left|bottom"
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:elevation="10dp"
+        diagonal:diagonal_angle="10"
+        diagonal:diagonal_direction="left"
+        diagonal:diagonal_position="bottom"
             >
 
-        </com.github.florent37.diagonallayout.DiagonalLayout>
+    </com.github.florent37.diagonallayout.DiagonalLayout>
 
-    </RelativeLayout>
+  </RelativeLayout>
 </RelativeLayout>
