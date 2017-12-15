@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  <attr path="/api/package[@name='com.github.florent37.diagonallayout']" name="managedName">Com.Github.Florent37.DiagonalLayout</attr>
   
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+  <attr path="/api/package[@name='com.github.florent37.diagonallayout']/class[@name='DiagonalLayout']/method[@name='init']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.github.florent37.diagonallayout']/class[@name='DiagonalLayout']/method[@name='init']/parameter[@name='p1']" name="name">attrs</attr>
+  <attr path="/api/package[@name='com.github.florent37.diagonallayout']/class[@name='DiagonalLayout']/method[@name='setAngle']/parameter[@name='p0']" name="name">angle</attr>
+  <attr path="/api/package[@name='com.github.florent37.diagonallayout']/class[@name='DiagonalLayout']/method[@name='setPosition']/parameter[@name='p0']" name="name">position</attr>
+  <attr path="/api/package[@name='com.github.florent37.diagonallayout']/class[@name='DiagonalLayout']/method[@name='setDirection']/parameter[@name='p0']" name="name">direction</attr>
+
+  <remove-node path="/api/package[@name='com.github.florent37.diagonallayout']/interface[@name='DiagonalLayoutSettings.Direction']" />
+  <remove-node path="/api/package[@name='com.github.florent37.diagonallayout']/interface[@name='DiagonalLayoutSettings.Position']" />
+
 </metadata>
